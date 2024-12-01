@@ -287,3 +287,47 @@ p {
     grid-template-columns: 1fr;
   }
 }
+
+/* FAQ */
+.faq {
+  text-align: center;
+  width: 40%;
+  margin: 0 auto;
+}
+
+.faq-item {
+  margin: 30px 0;
+}
+
+.faq-btn {
+    background-color: black;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 14px 30px;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    overflow: hidden;
+    transition: color 0.3s ease;
+    cursor: pointer;
+  }
+
+@media (max-width: 768px) {
+  .faq {
+    text-align: center;
+    width: 80%;
+  }
+  .faq-item {
+    margin: 20px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .faq {
+    text-align: center;
+    width: 80%;
+  }
+  .faq-item {
+    margin: 20px 0;
+  }
+}
